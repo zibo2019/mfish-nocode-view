@@ -20,6 +20,8 @@ export interface Box extends BaseEntity<string> {
 }
 
 export interface ReqBox extends ReqPage {
+  // 名称
+  name: string;
 }
 
 //分页结果集
